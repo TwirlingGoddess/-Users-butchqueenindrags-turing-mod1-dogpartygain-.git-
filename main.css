@@ -1,0 +1,148 @@
+
+
+/*full page stylings*/
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+/*header stylings for menu and icon*/
+header {
+  height: 4rem;
+  width: 100%;
+  background-color: #92e9e9; 
+}
+
+.iconPup {
+  float: left;
+  height: 2.75rem;
+  width: 2.75rem;
+  margin: .7rem 0 0 2rem;
+
+}
+
+table {
+  float: right;
+  height: 2rem;
+  margin: 1.3rem 1rem 0 0;
+}
+
+
+.howTho {
+  margin: 0 2.2rem 0 0;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/*main area stylings for main intro and its content*/
+
+main {
+  height: 70%;
+  width: 100%;
+  background-image: url(images/park.jpg);
+  background-size: cover;
+  overflow-wrap: break-word;
+  padding: 2rem 0 2rem 0;
+}
+
+aside {
+  text-align: center;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 300;
+  margin: 1rem 0 2rem 0;
+}
+
+.pupOne {
+  height: 20rem;
+  width: 20rem;
+  border: 4px solid #1594ac;
+  border-radius: 100%;
+}
+
+.h2Stuff {
+  width: 9.5rem;
+  border: 4px solid #1594ac;
+  background-color: white;
+  margin: auto;
+  padding: .45rem 0 .45rem 0;
+  font-size: large;
+}
+
+/*stylings of articles section and their contents*/
+
+section {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+
+article {
+  display: inline-grid;
+  text-align: center;
+  margin: 0 1% 0 1%;
+}
+
+.pupsPic {
+  height: 15rem;
+  width: 15rem;
+  border: 2.5px solid #1594ac;
+  border-radius: 100%;
+  margin: auto;
+}
+
+h2 {
+  width: 33%;
+  color: #1594ac;
+  border: 4px solid #1594ac;
+  margin: auto;
+  padding: .40rem .25rem .40rem .25rem;
+  font-size: 1.2rem;
+}
+
+h2:hover {
+  color: pink;
+  border: 1px solid pink;
+}
+
+p {
+  width: 22rem;
+  margin: 2rem 0 2rem 0;
+}
+
+h3 {
+  font-size: large;
+  margin: 1.25rem 0 1.7rem 0;
+}
+
+/*footer stylings with links etc*/
+footer {
+  height: 10.5rem;
+  width: 100%;
+  background-color: #1594ac;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+h4 {
+  color: white;
+  font-weight: 700;
+  font-size: large;
+}
+
+.learnMuch {
+  margin-bottom: 2rem;
+}
+
+.socialMedia {
+  margin: 2rem 2rem 3rem 1rem;
+}
+
+.gitHub {
+  margin-top: 2rem;
+}
